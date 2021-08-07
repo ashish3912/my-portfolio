@@ -21,45 +21,35 @@ export const aboutData = {
   paragraphOne: 'Hi I am Ashish Sharma, a 25 year old Web developer and blogger living in Amritsar, India. I am a Computer Science Engineer, currently working with awesome folks at TATA 1mg.',
   paragraphTwo: 'I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.',
   paragraphThree: 'You can read more about my biography, experience, skills, education and much more in the PDF attached bellow:',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'Ashish_Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project.png',
     title: 'Budget Tracker',
-    info: '',
+    info: 'Budget Tracker helps you track your financial activity efficiently. Its simple design makes it lightweight, straightforward and very easy to use. It’s done in one click, because you don’t need to fill anything except the amount. You need just a few SECONDS daily to save the amount and each spending purpose. No matter where you are just a couple of taps will save your expense.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://my-budget-tracker.netlify.app',
+    repo: 'https://github.com/ashish3912/Budget-Tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project2.png',
     title: 'Burger Builder',
-    info: '',
+    info: 'Burger Builder is an appltion scripted in React and backend is deployed on Firebase , where users can order burger by choosing ingredients. You just need to simply create an account and login to order your burger.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'E-Menu Host',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    url: 'https://my-burger-shop.netlify.app',
+  }
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ashishsharma3912@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +57,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/sharmaashish.aa',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ashish-sharma-52558512b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ashish3912',
     },
   ],
 };
